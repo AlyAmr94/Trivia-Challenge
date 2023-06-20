@@ -1,0 +1,2 @@
+input("Welcome to Trivia Challenge! Press Enter to Start!")
+input("This quiz will test your knowledge on six different knowledge areas and will determine if you Truly are the Trivia Champion! n/Press Enter to start the game!")
