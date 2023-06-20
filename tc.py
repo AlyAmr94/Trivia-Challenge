@@ -1,5 +1,5 @@
 input("Welcome to Trivia Challenge! Press Enter to Start!")
-input("This quiz will test your knowledge on six different knowledge areas and will determine if you Truly are the Trivia Champion!\nPress Enter to start the game!")
+input("This quiz will test your knowledge on six different knowledge areas and will determine if you truly are the Trivia Champion!\nPress Enter to start the game!")
 
 score = 0
 
@@ -49,7 +49,7 @@ if answer == "1" or answer.lower() == "marshall mathers":
 else: input("Wrong answer. Press Enter to go to the next question")
 
 #Question 6
-print("The Sixth question is about Literature! Which British Author created the character of James Bond?")
+print("\nThe Sixth question is about Literature! Which British Author created the character of James Bond?")
 print("1-Arthur Conan Doyle \n2-Joseph Conrad \n3-Ian Fleming \n4-Daniel Defoe")
 answer = input()
 if answer == "3" or answer.lower() == "ian fleming":
@@ -58,7 +58,7 @@ if answer == "3" or answer.lower() == "ian fleming":
 else: input("Wrong answer. Press Enter to continue")
 
 #End messages
-print("You have reached the end of the quiz! Let's see how you have fared!")
+print("\nYou have reached the end of the quiz! Let's see how you have fared!")
 print("Calculating...")
 if score == 6 or score == 5:
     print("Wow! You are the king of Trivia Challenge!")
